@@ -1,1 +1,105 @@
-/* You can add global styles to this file, and also import other style files */
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0e133c;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: white;
+}
+
+.weather-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.weather-card h2 {
+  font-size: 24px;
+}
+
+.weather-icon {
+  max-width: 100px;
+  margin: 0 auto 10px;
+}
+
+.weather-info {
+  font-size: 18px;
+}
+
+.temperature {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.weather-description {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.forecast-item {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Add your own custom styles and colors as needed */
+
+/* Example:
+.container {
+  background-color: #fff;
+  color: #333;
+}
+*/
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .temperature {
+    font-size: 28px;
+  }
+
+  .forecast-item {
+    padding: 10px 5px;
+  }
+}
+
