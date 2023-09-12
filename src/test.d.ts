@@ -1,0 +1,1 @@
+declare module 'countries-with-cities-select'
